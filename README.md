@@ -1,7 +1,7 @@
 # Race_System
 
 ## Project Overview
-RaceDay is a role-based RESTful sports event management platform designed specifically for South African road running, walking, and cycling events. The platform bridges the gap between event management and athlete participation by providing an intuitive system for race creation, category selection, participant enrolments, and official finish-time tracking. Built with strict role separation between **Organisers** and **Participants**, RaceDay ensures secure, streamlined operations for every race day.
+Race_System is a role-based RESTful sports event management platform designed specifically for South African road running events. The platform bridges the gap between event management and athlete participation by providing an intuitive system for race creation, category selection, participant enrolments, and official finish-time tracking. Built with strict role separation between **Organisers** and **Participants**, Race_System ensures secure, streamlined operations for every race day.
 
 ---
 
@@ -16,7 +16,7 @@ In Part 1 of the project, we establish the theoretical and structural foundation
 ---
 
 ## Database Architecture: ERD & SQL Script
-Understanding the data architecture is critical to understanding how RaceDay operates behind the scenes.
+Understanding the data architecture is critical to understanding how Race_System operates behind the scenes.
 
 * **Entity Relationship Diagram (ERD):** The ERD acts as the visual blueprint of the system. It maps out how different entities—such as `Users`, `Events`, `Categories`, `Enrolments`, and `Results`—relate to one another. It visually demonstrates primary-to-foreign key connections and cardinality, guaranteeing that data integrity is maintained (for example, ensuring an enrolment cannot exist without a valid participant and event race).
 * **Database Creation & Seed Script:** The SQL script brings the visual ERD to life by executing the data definition language (DDL) required to build the database tables, enforce constraints, and establish foreign keys. It also includes seed data—pre-populated sample records featuring sample organisers, participants, events, and categories. This allows developers and assessors to immediately spin up, test, and query a working database instance without manual data entry.
@@ -24,7 +24,7 @@ Understanding the data architecture is critical to understanding how RaceDay ope
 ---
 
 ## Summary & What's Ahead in Part 2
-Part 1 successfully completes the architectural blueprint for RaceDay, delivering a verified database schema, a complete API endpoint specification, and a repository ready for development. With a rock-solid data model and clear contract definitions established, the project is prepped for full backend implementation.
+Part 1 successfully completes the architectural blueprint for Race_System, delivering a verified database schema, a complete API endpoint specification, and a repository ready for development. With a rock-solid data model and clear contract definitions established, the project is prepped for full backend implementation.
 
 In **Part 2**, we will transform these blueprints into a fully functional backend service built with ASP.NET Core and Entity Framework Core. Part 2 will feature:
 * Secure authentication and role-based access control.
